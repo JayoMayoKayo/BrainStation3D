@@ -13,7 +13,7 @@ class NavBar1 extends React.Component {
           </div>
         <div className="navbar__links">
           <div className="navbar__links-text">
-            <Link className="navbar__links-text--stuff" to ='/graph-1'>Trending</Link>
+            <Link className="navbar__links-text--stuff" to ='/'>Trending</Link>
           </div>
           <div className="navbar__links-text">
             <Link className="navbar__links-text--stuff"  to ='/graph-2'>Controversy</Link>

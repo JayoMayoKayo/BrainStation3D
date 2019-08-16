@@ -1,4 +1,13 @@
 .cardContainer {
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
   box-sizing: border-box;
   background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.headerCard{
+  text-align: left;
+  margin-left: 1rem;
 }
