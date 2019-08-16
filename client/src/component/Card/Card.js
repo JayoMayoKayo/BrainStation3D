@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../NavBar/NavBar'
+import NavBar1 from '../NavBar/NavBar1'
 import './Card.scss';
 
 class Card extends React.Component {
