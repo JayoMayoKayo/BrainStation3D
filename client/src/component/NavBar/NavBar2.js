@@ -9,8 +9,8 @@ class NavBar2 extends React.Component {
 		return (
       <>
       <div className="greything">
-        <h1 className="greything__text">Data for TED talks that new grads care about</h1>
-        <h3 className="greything__title">placeholder</h3>
+        <h1 className="greything__text">Data new grads care about</h1>
+        <h3 className="greything__title">Different Perspectives</h3>
       </div>
     </>
 		);
