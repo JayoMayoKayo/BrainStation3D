@@ -1,0 +1,24 @@
+.footer {
+  width: 100%;
+  margin-top: 25px;
+  box-sizing: border-box;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+.nameTab {
+  box-sizing: border-box;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: white;
+  :hover {
+    border-bottom: 2px solid #E62B1E;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    :visited {
+    color: white;
+    }
+  }
+}
