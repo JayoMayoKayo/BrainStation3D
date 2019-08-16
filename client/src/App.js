@@ -1,28 +1,21 @@
-//Sup Joseph
-
 import React from 'react';
-import logo from './logo.svg';
+import NavBar from './component/NavBar/NavBar'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Card from './component/Card/Card.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          This is Joseph!
-        </p>
-
-        <a
-          className="App-link"
-          href={`http://localhost:8080/ping`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Local Express Server ping
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Switch>
+          <Route exact path='/' component={Card} />
+          <Route exact path='/graph-1' component={Card} />
+          <Route exact path='/graph-2' component={Card} />
+          <Route exact path='/graph-3' component={Card} />
+          <Route exact path='/graph-4' component={Card} />
+        </Switch>
+      </Router>
     </div>
   );
 }
