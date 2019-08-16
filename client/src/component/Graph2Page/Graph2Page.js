@@ -4,7 +4,7 @@ import NavBar2 from '../NavBar/NavBar2.js';
 import Graph2 from '../Graphs/Graph2'
 import '../../component/Graph.scss'
 import CardContainer from '../Card/CardContainer';
-
+import Footer from '../Footer/Footer.js';
 
 
 class Graph2Page extends React.Component {
@@ -16,7 +16,7 @@ class Graph2Page extends React.Component {
         <NavBar2/>
         <Graph2/>
         <CardContainer />
-
+        <Footer />
       </div>
       </>
     )}
