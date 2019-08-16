@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'OmarFont';
+  src: url('../../assets/fonts/HelveticaNeue-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'OmarFont2';
+  src: url('../../assets/fonts/HelveticaNeueBold.woff') format('woff');
+}
+
+.navbar{
+  font-family: OmarFont;
+
+  &__links{
+  display:flex;
+  flex-direction: row;
+  }
+}
