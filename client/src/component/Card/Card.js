@@ -10,11 +10,8 @@ class Card extends React.Component {
           <div className="card__videoPreview">
             <img src={`https://upload.wikimedia.org/wikipedia/commons/a/aa/TED_three_letter_logo.svg`}/>
           </div>
-          <div className="card__videoTitle">
+          <div className="card__videoTitle-text">
             <p>{this.props.title}</p>
-          </div>
-          <div className="card__videoDescription">
-            <p>{this.props.description}</p>
           </div>
           <div className="card__videoDescription">
             <p>{this.props.name}</p>
