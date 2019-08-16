@@ -7,31 +7,28 @@ class Footer extends React.Component {
       <>
         <div className="footer">
           <div className="nameTab">
-          <a href="https://www.linkedin.com/in/josephehkim/"><p>Joseph Kim</p></a>
+            <a href="https://www.linkedin.com/in/josephehkim/"><p>Web Joseph Kim</p></a>
           </div>
           <div className="nameTab">
-            <p>Omar Khan</p>
+            <a href="https://www.linkedin.com/in/omarkhanhr/"><p>Web Omar Khan</p></a>
           </div>
           <div className="nameTab">
-            <p>Andres Jaramillo</p>
+            <a href="https://linkedin.com/in/mayowaadebajo/"><p>Des Mayowa Adebajo</p></a>
           </div>
           <div className="nameTab">
-            <p>Christopher Zakrzewski</p>
+            <a href="https://www.linkedin.com/in/jameskachan"><p>Des James Kachan</p></a>
           </div>
           <div className="nameTab">
-            <p>Fekre</p>
+            <a href="https://www.linkedin.com/in/yangzm018/"><p>Des Yang Yang</p></a>
           </div>
           <div className="nameTab">
-            <p>James Kachan</p>
+            <a href="www.linkedin.com/in/ajaramillo95"><p>Data Andres Jaramillo</p></a>
           </div>
           <div className="nameTab">
-            <p>Kevin Tang</p>
+            <a href="https://www.linkedin.com/in/kevintang0819/"><p>Data Kevin Tang</p></a>
           </div>
           <div className="nameTab">
-          <a href="https://www.linkedin.com/in/josephehkim/"><p>Joseph Kim</p></a>
-          </div>
-          <div className="nameTab">
-            <p>Yang</p>
+            <a href="https://www.linkedin.com/in/fekremariam-tefera/"><p>Data Fekre Tefera</p></a>
           </div>
         </div>
       </>
