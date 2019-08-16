@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './component/NavBar/NavBar'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './App.css';
+import './App.scss';
 import Card from './component/Card/Card.js';
 import Graph1Page from './component/Graph1Page/Graph1Page.js';
 import Graph2Page from './component/Graph2Page/Graph2Page.js';
