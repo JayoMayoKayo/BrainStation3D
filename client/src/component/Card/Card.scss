@@ -7,4 +7,15 @@
   border: 1px solid black;
   margin: 1rem;
   padding: 1rem;
+
+  .card__videoPreview {
+
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  .card__videoDescription {
+    width: 200px;
+  }
 }

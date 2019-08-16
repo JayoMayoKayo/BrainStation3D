@@ -9,11 +9,10 @@ import Graph3Page from './component/Graph3Page/Graph3Page.js';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Router>
         <Switch>
-          <Route exact path='/' component={Card} />
-          <Route exact path='/graph-1' component={Graph1Page} />
+          <Route exact path='/' component={Graph1Page} />
           <Route exact path='/graph-2' component={Graph2Page} />
           <Route exact path='/graph-3' component={Graph3Page} />
           <Route exact path='/graph-4' component={Card} />
