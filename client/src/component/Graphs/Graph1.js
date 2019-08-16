@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../App.css'
 
 
 class Graph extends React.Component {
@@ -8,7 +7,8 @@ class Graph extends React.Component {
 		return (
       <>
       <div className="graph">
-        <iframe src={`https://i.imgur.com/A8eQsll.jpg`} width="540" height="450"/>; 
+      <iframe src={`https://public.tableau.com/views/Test_Mock/Sheet1?:showVizHome=no&:embed=true`}
+    width="645" height="955"></iframe>; 
       </div>
     </>
 		);
