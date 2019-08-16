@@ -7,7 +7,7 @@ class Graph extends React.Component {
 		return (
       <>
       <div className="graph">
-      <iframe src={`https://public.tableau.com/profile/kevin1262#!/vizhome/Graph3_15659859838100/Chart2?:showVizHome=no&:embed=true`}
+      <iframe src={`https://public.tableau.com/views/graph2_15659841665870/Sheet1?:showVizHome=no&:embed=true`}
        width="35%" height="600"></iframe>
       </div>
     </>
