@@ -1,11 +1,12 @@
 import React from 'react';
+import NavBar from '../NavBar/NavBar'
 import './Card.scss';
 
 class Card extends React.Component {
   render(){
     return(
       <>
-        <p>hello worl</p>
+      <NavBar/>
       </>
     )}
 }
