@@ -7,8 +7,8 @@ class Graph extends React.Component {
 		return (
       <>
       <div className="graph">
-      <iframe className="graph__frame" src={`https://public.tableau.com/views/Test_Mock/Sheet1?:showVizHome=no&:embed=true`}
-          width="645" height="955"></iframe>; 
+      <iframe src={`https://public.tableau.com/views/Test_Mock/Sheet1?:showVizHome=no&:embed=true`}
+       width="645" height="955"></iframe>; 
       </div>
     </>
 		);
