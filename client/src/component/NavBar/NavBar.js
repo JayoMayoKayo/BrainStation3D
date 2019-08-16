@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css'
+import {Link} from 'react-router-dom'
 
 
 class NavBar extends React.Component {
@@ -12,20 +13,13 @@ class NavBar extends React.Component {
         </div>
         <div className="navbar__links">
           <div className="navbar__links-text">
-            {/* <Link to ='/chart-1'>Chart 1</Link> */}
-            hello
+            <Link to ='/graph-1'>Discover</Link>
           </div>
           <div className="navbar__links-text">
-            {/* <Link to ='/chart-2'>Chart 2</Link> */}
-            world
+            <Link to ='/graph-2'>Cycling</Link>
           </div>
           <div className="navbar__links-text">
-            {/* <Link to ='/chart-3'>Chart 3</Link> */}
-            wut
-          </div>
-          <div className="navbar__links-text">
-            {/* <Link to ='/chart-4'>Chart 4</Link> */}
-            WAT
+            <Link to ='/graph-3'>Pizza</Link>
           </div>
         </div>
       </div>
